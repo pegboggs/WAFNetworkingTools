@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276535C61ED6D48C000CE619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276535C51ED6D48C000CE619 /* main.m */; };
+		276535C91ED6D48C000CE619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276535C81ED6D48C000CE619 /* AppDelegate.m */; };
+		276535CC1ED6D48C000CE619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276535CB1ED6D48C000CE619 /* ViewController.m */; };
+		276535CF1ED6D48C000CE619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276535CD1ED6D48C000CE619 /* Main.storyboard */; };
+		276535D21ED6D48C000CE619 /* WAFNetworking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 276535D01ED6D48C000CE619 /* WAFNetworking.xcdatamodeld */; };
+		276535D41ED6D48C000CE619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276535D31ED6D48C000CE619 /* Assets.xcassets */; };
+		276535D71ED6D48C000CE619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276535D51ED6D48C000CE619 /* LaunchScreen.storyboard */; };
+		276535E21ED6D48C000CE619 /* WAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276535E11ED6D48C000CE619 /* WAFNetworkingTests.m */; };
+		276535ED1ED6D48C000CE619 /* WAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276535EC1ED6D48C000CE619 /* WAFNetworkingUITests.m */; };
+		276535FD1ED6D520000CE619 /* WAFnetwokingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 276535FC1ED6D520000CE619 /* WAFnetwokingTools.m */; };
+		59E058829D006426C353F067 /* libPods-WAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96C48756814404B6C9CC632 /* libPods-WAFNetworking.a */; };
+		7A8E99FCFF672A5037DFE49C /* libPods-WAFNetworkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E4B6E071543B54378A4F00 /* libPods-WAFNetworkingTests.a */; };
+		D5E7050EF703BF1B40507906 /* libPods-WAFNetworkingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A4D4D49AA3D74014C9964C /* libPods-WAFNetworkingUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276535DE1ED6D48C000CE619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276535B91ED6D48C000CE619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276535C01ED6D48C000CE619;
+			remoteInfo = WAFNetworking;
+		};
+		276535E91ED6D48C000CE619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276535B91ED6D48C000CE619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276535C01ED6D48C000CE619;
+			remoteInfo = WAFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A21FE9811D9EF4D2D39E97 /* Pods-WAFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAFNetworking/Pods-WAFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		276535C11ED6D48C000CE619 /* WAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276535C51ED6D48C000CE619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276535C71ED6D48C000CE619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		276535C81ED6D48C000CE619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		276535CA1ED6D48C000CE619 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		276535CB1ED6D48C000CE619 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		276535CE1ED6D48C000CE619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276535D11ED6D48C000CE619 /* WAFNetworking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WAFNetworking.xcdatamodel; sourceTree = "<group>"; };
+		276535D31ED6D48C000CE619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276535D61ED6D48C000CE619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		276535D81ED6D48C000CE619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276535DD1ED6D48C000CE619 /* WAFNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAFNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276535E11ED6D48C000CE619 /* WAFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAFNetworkingTests.m; sourceTree = "<group>"; };
+		276535E31ED6D48C000CE619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276535E81ED6D48C000CE619 /* WAFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276535EC1ED6D48C000CE619 /* WAFNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAFNetworkingUITests.m; sourceTree = "<group>"; };
+		276535EE1ED6D48C000CE619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276535FB1ED6D520000CE619 /* WAFnetwokingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAFnetwokingTools.h; sourceTree = "<group>"; };
+		276535FC1ED6D520000CE619 /* WAFnetwokingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAFnetwokingTools.m; sourceTree = "<group>"; };
+		5C608F37DAD21A3C094E8493 /* Pods-WAFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAFNetworking/Pods-WAFNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		6F97629F511BE9B86314D064 /* Pods-WAFNetworkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFNetworkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAFNetworkingUITests/Pods-WAFNetworkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AFE917473882F478DC5C14B /* Pods-WAFNetworkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFNetworkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAFNetworkingUITests/Pods-WAFNetworkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C9408DED38078F9A8180057 /* Pods-WAFNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFNetworkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAFNetworkingTests/Pods-WAFNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9F4F97ED5DDB8C4FAE6CC24 /* Pods-WAFNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFNetworkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAFNetworkingTests/Pods-WAFNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E4B6E071543B54378A4F00 /* libPods-WAFNetworkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAFNetworkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A4D4D49AA3D74014C9964C /* libPods-WAFNetworkingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAFNetworkingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96C48756814404B6C9CC632 /* libPods-WAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276535BE1ED6D48C000CE619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E058829D006426C353F067 /* libPods-WAFNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276535DA1ED6D48C000CE619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8E99FCFF672A5037DFE49C /* libPods-WAFNetworkingTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276535E51ED6D48C000CE619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E7050EF703BF1B40507906 /* libPods-WAFNetworkingUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1632BAF0990A955C57DED148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F96C48756814404B6C9CC632 /* libPods-WAFNetworking.a */,
+				E0E4B6E071543B54378A4F00 /* libPods-WAFNetworkingTests.a */,
+				E8A4D4D49AA3D74014C9964C /* libPods-WAFNetworkingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		276535B81ED6D48C000CE619 = {
+			isa = PBXGroup;
+			children = (
+				276535C31ED6D48C000CE619 /* WAFNetworking */,
+				276535E01ED6D48C000CE619 /* WAFNetworkingTests */,
+				276535EB1ED6D48C000CE619 /* WAFNetworkingUITests */,
+				276535C21ED6D48C000CE619 /* Products */,
+				4ADC3ADCBBB361AD3731903F /* Pods */,
+				1632BAF0990A955C57DED148 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		276535C21ED6D48C000CE619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276535C11ED6D48C000CE619 /* WAFNetworking.app */,
+				276535DD1ED6D48C000CE619 /* WAFNetworkingTests.xctest */,
+				276535E81ED6D48C000CE619 /* WAFNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276535C31ED6D48C000CE619 /* WAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				276535FA1ED6D501000CE619 /* Tools */,
+				276535C71ED6D48C000CE619 /* AppDelegate.h */,
+				276535C81ED6D48C000CE619 /* AppDelegate.m */,
+				276535CA1ED6D48C000CE619 /* ViewController.h */,
+				276535CB1ED6D48C000CE619 /* ViewController.m */,
+				276535CD1ED6D48C000CE619 /* Main.storyboard */,
+				276535D31ED6D48C000CE619 /* Assets.xcassets */,
+				276535D51ED6D48C000CE619 /* LaunchScreen.storyboard */,
+				276535D81ED6D48C000CE619 /* Info.plist */,
+				276535D01ED6D48C000CE619 /* WAFNetworking.xcdatamodeld */,
+				276535C41ED6D48C000CE619 /* Supporting Files */,
+			);
+			path = WAFNetworking;
+			sourceTree = "<group>";
+		};
+		276535C41ED6D48C000CE619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276535C51ED6D48C000CE619 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		276535E01ED6D48C000CE619 /* WAFNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				276535E11ED6D48C000CE619 /* WAFNetworkingTests.m */,
+				276535E31ED6D48C000CE619 /* Info.plist */,
+			);
+			path = WAFNetworkingTests;
+			sourceTree = "<group>";
+		};
+		276535EB1ED6D48C000CE619 /* WAFNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				276535EC1ED6D48C000CE619 /* WAFNetworkingUITests.m */,
+				276535EE1ED6D48C000CE619 /* Info.plist */,
+			);
+			path = WAFNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		276535FA1ED6D501000CE619 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				276535FB1ED6D520000CE619 /* WAFnetwokingTools.h */,
+				276535FC1ED6D520000CE619 /* WAFnetwokingTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4ADC3ADCBBB361AD3731903F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07A21FE9811D9EF4D2D39E97 /* Pods-WAFNetworking.debug.xcconfig */,
+				5C608F37DAD21A3C094E8493 /* Pods-WAFNetworking.release.xcconfig */,
+				C9F4F97ED5DDB8C4FAE6CC24 /* Pods-WAFNetworkingTests.debug.xcconfig */,
+				9C9408DED38078F9A8180057 /* Pods-WAFNetworkingTests.release.xcconfig */,
+				7AFE917473882F478DC5C14B /* Pods-WAFNetworkingUITests.debug.xcconfig */,
+				6F97629F511BE9B86314D064 /* Pods-WAFNetworkingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276535C01ED6D48C000CE619 /* WAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276535F11ED6D48C000CE619 /* Build configuration list for PBXNativeTarget "WAFNetworking" */;
+			buildPhases = (
+				75A1077A9610B433219CD923 /* [CP] Check Pods Manifest.lock */,
+				276535BD1ED6D48C000CE619 /* Sources */,
+				276535BE1ED6D48C000CE619 /* Frameworks */,
+				276535BF1ED6D48C000CE619 /* Resources */,
+				C94539BD226D636848197290 /* [CP] Embed Pods Frameworks */,
+				CC3210E7223D179467B4ABCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WAFNetworking;
+			productName = WAFNetworking;
+			productReference = 276535C11ED6D48C000CE619 /* WAFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276535DC1ED6D48C000CE619 /* WAFNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276535F41ED6D48C000CE619 /* Build configuration list for PBXNativeTarget "WAFNetworkingTests" */;
+			buildPhases = (
+				7002EC0629616B38B0A5A366 /* [CP] Check Pods Manifest.lock */,
+				276535D91ED6D48C000CE619 /* Sources */,
+				276535DA1ED6D48C000CE619 /* Frameworks */,
+				276535DB1ED6D48C000CE619 /* Resources */,
+				8582F504B04C6889C98192A6 /* [CP] Embed Pods Frameworks */,
+				CFF4C9CF52BC73C5D5E27AD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276535DF1ED6D48C000CE619 /* PBXTargetDependency */,
+			);
+			name = WAFNetworkingTests;
+			productName = WAFNetworkingTests;
+			productReference = 276535DD1ED6D48C000CE619 /* WAFNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		276535E71ED6D48C000CE619 /* WAFNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276535F71ED6D48C000CE619 /* Build configuration list for PBXNativeTarget "WAFNetworkingUITests" */;
+			buildPhases = (
+				15AFF020EC97E636DD3F834C /* [CP] Check Pods Manifest.lock */,
+				276535E41ED6D48C000CE619 /* Sources */,
+				276535E51ED6D48C000CE619 /* Frameworks */,
+				276535E61ED6D48C000CE619 /* Resources */,
+				62E8D1E9DDEEBBAE9EB22679 /* [CP] Embed Pods Frameworks */,
+				40D8CB055D74F97417DABD81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276535EA1ED6D48C000CE619 /* PBXTargetDependency */,
+			);
+			name = WAFNetworkingUITests;
+			productName = WAFNetworkingUITests;
+			productReference = 276535E81ED6D48C000CE619 /* WAFNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276535B91ED6D48C000CE619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WPG;
+				TargetAttributes = {
+					276535C01ED6D48C000CE619 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					276535DC1ED6D48C000CE619 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 276535C01ED6D48C000CE619;
+					};
+					276535E71ED6D48C000CE619 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 276535C01ED6D48C000CE619;
+					};
+				};
+			};
+			buildConfigurationList = 276535BC1ED6D48C000CE619 /* Build configuration list for PBXProject "WAFNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276535B81ED6D48C000CE619;
+			productRefGroup = 276535C21ED6D48C000CE619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276535C01ED6D48C000CE619 /* WAFNetworking */,
+				276535DC1ED6D48C000CE619 /* WAFNetworkingTests */,
+				276535E71ED6D48C000CE619 /* WAFNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276535BF1ED6D48C000CE619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276535D71ED6D48C000CE619 /* LaunchScreen.storyboard in Resources */,
+				276535D41ED6D48C000CE619 /* Assets.xcassets in Resources */,
+				276535CF1ED6D48C000CE619 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276535DB1ED6D48C000CE619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276535E61ED6D48C000CE619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15AFF020EC97E636DD3F834C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40D8CB055D74F97417DABD81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAFNetworkingUITests/Pods-WAFNetworkingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E8D1E9DDEEBBAE9EB22679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAFNetworkingUITests/Pods-WAFNetworkingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7002EC0629616B38B0A5A366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75A1077A9610B433219CD923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8582F504B04C6889C98192A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAFNetworkingTests/Pods-WAFNetworkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94539BD226D636848197290 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAFNetworking/Pods-WAFNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3210E7223D179467B4ABCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAFNetworking/Pods-WAFNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF4C9CF52BC73C5D5E27AD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAFNetworkingTests/Pods-WAFNetworkingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276535BD1ED6D48C000CE619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276535FD1ED6D520000CE619 /* WAFnetwokingTools.m in Sources */,
+				276535D21ED6D48C000CE619 /* WAFNetworking.xcdatamodeld in Sources */,
+				276535CC1ED6D48C000CE619 /* ViewController.m in Sources */,
+				276535C91ED6D48C000CE619 /* AppDelegate.m in Sources */,
+				276535C61ED6D48C000CE619 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276535D91ED6D48C000CE619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276535E21ED6D48C000CE619 /* WAFNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276535E41ED6D48C000CE619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276535ED1ED6D48C000CE619 /* WAFNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276535DF1ED6D48C000CE619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276535C01ED6D48C000CE619 /* WAFNetworking */;
+			targetProxy = 276535DE1ED6D48C000CE619 /* PBXContainerItemProxy */;
+		};
+		276535EA1ED6D48C000CE619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276535C01ED6D48C000CE619 /* WAFNetworking */;
+			targetProxy = 276535E91ED6D48C000CE619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		276535CD1ED6D48C000CE619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276535CE1ED6D48C000CE619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276535D51ED6D48C000CE619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276535D61ED6D48C000CE619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276535EF1ED6D48C000CE619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		276535F01ED6D48C000CE619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276535F21ED6D48C000CE619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A21FE9811D9EF4D2D39E97 /* Pods-WAFNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WPG.WAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276535F31ED6D48C000CE619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C608F37DAD21A3C094E8493 /* Pods-WAFNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WPG.WAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		276535F51ED6D48C000CE619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F4F97ED5DDB8C4FAE6CC24 /* Pods-WAFNetworkingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WPG.WAFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAFNetworking.app/WAFNetworking";
+			};
+			name = Debug;
+		};
+		276535F61ED6D48C000CE619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9408DED38078F9A8180057 /* Pods-WAFNetworkingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WPG.WAFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAFNetworking.app/WAFNetworking";
+			};
+			name = Release;
+		};
+		276535F81ED6D48C000CE619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFE917473882F478DC5C14B /* Pods-WAFNetworkingUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WAFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WPG.WAFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WAFNetworking;
+			};
+			name = Debug;
+		};
+		276535F91ED6D48C000CE619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F97629F511BE9B86314D064 /* Pods-WAFNetworkingUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WAFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WPG.WAFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WAFNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276535BC1ED6D48C000CE619 /* Build configuration list for PBXProject "WAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276535EF1ED6D48C000CE619 /* Debug */,
+				276535F01ED6D48C000CE619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276535F11ED6D48C000CE619 /* Build configuration list for PBXNativeTarget "WAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276535F21ED6D48C000CE619 /* Debug */,
+				276535F31ED6D48C000CE619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276535F41ED6D48C000CE619 /* Build configuration list for PBXNativeTarget "WAFNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276535F51ED6D48C000CE619 /* Debug */,
+				276535F61ED6D48C000CE619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276535F71ED6D48C000CE619 /* Build configuration list for PBXNativeTarget "WAFNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276535F81ED6D48C000CE619 /* Debug */,
+				276535F91ED6D48C000CE619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		276535D01ED6D48C000CE619 /* WAFNetworking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				276535D11ED6D48C000CE619 /* WAFNetworking.xcdatamodel */,
+			);
+			currentVersion = 276535D11ED6D48C000CE619 /* WAFNetworking.xcdatamodel */;
+			path = WAFNetworking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 276535B91ED6D48C000CE619 /* Project object */;
+}
